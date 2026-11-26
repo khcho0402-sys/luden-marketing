@@ -212,6 +212,16 @@ h2{margin:12px 0 0;font-size:clamp(23px,3vw,33px);line-height:1.34;letter-spacin
 .ind .flow{margin:12px 0 0;font-size:12.5px;font-weight:700;color:var(--muted)}
 @media(max-width:900px){.ind{grid-template-columns:1fr}.ind .box.wide{grid-column:auto}}
 
+/* ---------- reference ---------- */
+.refshot{margin:34px auto 0;max-width:720px}
+.refshot a{display:block;border-radius:22px;overflow:hidden;border:1px solid var(--line-2);box-shadow:0 24px 60px rgba(20,33,61,.20);background:var(--navy);transition:transform .2s,box-shadow .2s}
+.refshot a:hover{transform:translateY(-2px);box-shadow:0 32px 72px rgba(20,33,61,.26)}
+.refshot img{width:100%;height:auto;display:block}
+.refshot figcaption{margin-top:16px;font-size:12.5px;line-height:1.75;color:var(--muted);text-align:center}
+.refshot figcaption b{color:var(--ink-2);font-weight:800}
+.refshot figcaption .zoom{display:block;margin-top:4px;font-size:12px;color:var(--muted-2)}
+@media(max-width:760px){.refshot{margin-top:24px}.refshot a{border-radius:16px;box-shadow:0 14px 34px rgba(20,33,61,.16)}.refshot figcaption{text-align:left;font-size:12px}}
+
 /* ---------- pricing ---------- */
 .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px;align-items:start}
 .plan{background:#fff;border:1.5px solid var(--line-2);border-radius:20px;padding:26px 22px;position:relative}
@@ -301,6 +311,7 @@ footer b{color:#C7D1E2;font-weight:700}
       <a href="#why">왜 스레드</a>
       <a href="#service">서비스</a>
       <a href="#proof">실적</a>
+      <a href="#ref">레퍼런스</a>
       <a href="#price">가격</a>
       <a href="#faq">FAQ</a>
     </nav>
@@ -595,11 +606,33 @@ footer b{color:#C7D1E2;font-weight:700}
   </div>
 </section>
 
+<!-- ================= REFERENCE ================= -->
+<section class="sec" id="ref">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><span class="n">06</span> 실제 매장 레퍼런스</span>
+      <h2>실제로 이렇게 성장하는<br>매장들이 있습니다.</h2>
+      <p class="sub">딱딱한 광고가 아니라 동네 단골·사장님 스토리 감성으로 운영해 <b>팔로워와 댓글·공유가 쌓이는</b> 실제 스레드 매장 사례입니다. (상호·아이디는 보호를 위해 모자이크 처리)</p>
+    </div>
+
+    <figure class="refshot rv">
+      <a href="assets/luden_threads_ref_10k_blur.png" target="_blank" rel="noopener" aria-label="스레드 매장 레퍼런스 이미지 원본 크기로 보기">
+        <img src="assets/luden_threads_ref_10k_blur.png" alt="스레드 팔로워 1만 이상 실제 매장 4곳의 프로필 화면 — 팔로워 2.4만 카페, 1.4만 부산 매장, 1.0만 카페·공간대관, 1.2만 디저트 카페 (상호·아이디·프로필 사진 모자이크 처리)" width="1200" height="2283" loading="lazy" decoding="async">
+      </a>
+      <figcaption>
+        실제 스레드 프로필 화면 캡처(2026.11.26 확인) · 팔로워 수는 스레드 프로필 표기 기준입니다.<br>
+        위 매장은 루덴마케팅 대행처가 아닌 <b>운영 방식 레퍼런스</b>이며, 매장별 성과를 보장하지 않습니다.
+        <span class="zoom">이미지를 누르면 원본 크기로 볼 수 있습니다.</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
 <!-- ================= PRICING ================= -->
 <section class="sec sec-cream" id="price">
   <div class="wrap">
     <div class="sec-head rv">
-      <span class="eyebrow"><span class="n">06</span> 선착순 10곳 베타 가격</span>
+      <span class="eyebrow"><span class="n">07</span> 선착순 10곳 베타 가격</span>
       <h2>먼저 한 달, 5만 원.</h2>
       <p class="sub">10곳이 차면 정가로 인상됩니다. 금액은 부가가치세 포함입니다.</p>
     </div>
@@ -646,7 +679,7 @@ footer b{color:#C7D1E2;font-weight:700}
 <section class="sec" id="faq">
   <div class="wrap">
     <div class="sec-head rv">
-      <span class="eyebrow"><span class="n">07</span> 자주 묻는 질문</span>
+      <span class="eyebrow"><span class="n">08</span> 자주 묻는 질문</span>
       <h2>계약 전에 많이 물으시는 것들.</h2>
     </div>
     <div class="faq rv">
@@ -691,7 +724,7 @@ footer b{color:#C7D1E2;font-weight:700}
 <section class="contact" id="contact">
   <div class="wrap contact-in">
     <div>
-      <span class="eyebrow"><span class="n">08</span> 상담 안내</span>
+      <span class="eyebrow"><span class="n">09</span> 상담 안내</span>
       <h2>가게 사진 3장이면,<br>상담은 10분입니다.</h2>
       <p class="sub">지금 가게 상황과 목표만 알려주시면, 이번 달에 뭘 할 수 있는지 바로 말씀드립니다. 상담은 무료이고, 계약을 권하지 않아도 됩니다.</p>
       <div class="cta-row">
